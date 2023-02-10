@@ -1,0 +1,66 @@
+@import "breakpoints";
+
+@include xs{
+    .navbar-nav{
+        background-color: white;
+        
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .banner-text{
+        h1{
+            font-size: 18px;
+        }
+    }
+    .card{
+        width: 10rem !important;
+    }
+    .enjoy-img, .enjoy-img2{
+        display: none;
+    }
+    .room-text2{
+        .img-21{
+            margin-top: 10px;
+        }
+    }
+    .img-22{
+        margin-top: 10px;
+    }
+    .booking{
+        background-position: center;
+    }
+    
+}
+@include sm{
+    .navbar-nav{
+        background-color: white;
+        
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .banner-text{
+        h1{
+            font-size: 18px;
+        }
+    }
+    .card{
+        width: 10rem !important;
+    }
+    .enjoy-img, .enjoy-img2{
+        display: none;
+    }
+    .room-text2{
+        .img-21{
+            margin-top: 10px;
+        }
+    }
+    .img-22{
+        margin-top: 10px;
+    }
+    .booking{
+        background-position: center;
+    }
+    
+}

@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gilda Display', serif;
+}
+
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px !important;
+    }
+}
+.sticky{
+    position: fixed !important;
+    width: 100%;
+}
+
+.btn {
+    &:hover {
+        color: #fff !important;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+//header
+.navbar {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 99;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+    height: 90px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff !important;
+    margin: 3px;
+    font-family: 'Barlow Condensed', sans-serif !important;
+
+    &:hover {
+        color: #937345 !important;
+    }
+}
+
+//section 1
+.banner-1 {
+    height: 100vh;
+    width: 100%;
+    // background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://duruthemes.com/demo/html/cappa/demo2/img/slider/1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-2 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-3 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 30%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 12px;
+    justify-content: center;
+    align-items: center;
+
+
+    h1 {
+        font-size: 55px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Gilda Display', serif !important;
+        animation: slideup 2s;
+    }
+
+    h4 {
+        animation: slideup 2s;
+        font-family: 'Barlow Condensed', sans-serif !important;
+    }
+
+    animation: slideup 2s;
+}
+
+@keyframes slideup {
+    from {
+        opacity: 0.2s;
+        line-height: 500px;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 1.35em;
+    }
+
+}
+
+//enjoy
+.enjoy-text {
+    line-height: 80px;
+
+    h6 {
+        color: gray;
+        font-family: 'Gilda Display', serif !important;
+        letter-spacing: 5px;
+        font-size: 20px;
+        line-height: 70px;
+    }
+
+    h2 {
+        letter-spacing: 5px;
+        font-weight: 400;
+        font-size: 50px;
+        font-family: 'Gilda Display', serif !important;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+
+    p {
+        color: gray;
+        font-family: 'Gilda Display', serif !important;
+        font-size: 18px;
+        line-height: 34px;
+        line-height: 40px;
+    }
+}
+
+.enjoy-img {
+    bottom: 0px;
+    width: 250px;
+}
+
+.enjoy-img2 {
+    top: 0px;
+    width: 250px;
+}
+
+
+
+//Rooms.js
+.rooms {
+    background-color: #F8F5F0;
+
+    .room-text {
+        h6 {
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-weight: 200;
+            font-family: 'Gilda Display', serif !important;
+        }
+
+        h2 {
+            font-size: 48px;
+            letter-spacing: 5px;
+            font-weight: 200;
+            font-family: 'Gilda Display', serif !important;
+        }
+    }
+
+    .row1 {
+        img {
+            width: 100%
+        }
+
+        .overflow {
+            overflow: hidden;
+
+            img {
+                transition: all 0.9s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: brightness(50%);
+
+                }
+            }
+        }
+
+        .room-text2 {
+            .img-text {
+                bottom: 20px;
+                color: #fff;
+                left: 14px;
+                font-size: 48px;
+                letter-spacing: 2px;
+                font-weight: 200;
+                font-family: 'Gilda Display', serif !important;
+
+                &:hover {
+                    .btn1 {
+                        display: block !important;
+                    }
+                }
+            }
+
+            .img-text::after {
+                content: '';
+                width: 0px;
+                height: 1px;
+                background-color: white;
+                margin: auto;
+                display: block;
+            }
+
+            .img-text:hover::after {
+                width: 100%;
+                transition: width 0.3s linear;
+
+            }
+        }
+    }
+
+    .row2 {
+        .overflow {
+            overflow: hidden;
+
+            img {
+                transition: all 0.9s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: brightness(50%);
+                }
+            }
+        }
+
+        img {
+            width: 100%
+        }
+
+        .img-text2 {
+            bottom: 20px;
+            left: 10px;
+            color: #fff;
+
+            &:hover {
+                .btn2 {
+                    display: block !important;
+                }
+            }
+        }
+
+        .img-text2::after {
+            content: '';
+            width: 0px;
+            height: 1px;
+            background-color: white;
+            margin: auto;
+            display: block;
+        }
+
+        .img-text2:hover::after {
+            width: 100%;
+            transition: width 0.3s linear;
+
+        }
+    }
+
+}
+
+//extra.js
+.extra {
+    background-color: #000;
+
+    .extra1 {
+        h6 {
+            color: #937345;
+            letter-spacing: 4px;
+            font-weight: 200;
+        }
+
+        h2 {
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 60px;
+        }
+
+        p {
+            letter-spacing: 4px;
+            font-weight: 200;
+        }
+    }
+
+}
+
+.card {
+    color: #000;
+
+    span {
+        color: #000;
+        font-size: 18px;
+    }
+
+    h1 {
+        color: #937345;
+    }
+}
+
+//promo.js
+.promo {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://shtheme.com/demosd/thecappa/wp-content/uploads/2022/06/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    h6 {
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 46px;
+        font-weight: 400;
+    }
+
+    .circle {
+        border: 2px solid white;
+        width: 100px;
+        height: 90px;
+        margin: auto;
+        position: relative;
+
+        h1 {
+            a {
+                top: 20px;
+                right: 6px;
+                left: 6px;
+                position: absolute;
+                color: white !important;
+            }
+        }
+    }
+}
+
+//Facility.js
+.facility-head {
+    h6 {
+        font-size: 24px;
+        line-height: 38px;
+        font-weight: 200;
+        font-family: 'Barlow Condensed', sans-serif !important;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+}
+
+.face1 {
+    margin-bottom: 20px;
+
+    h4 {
+        line-height: 44px;
+    }
+    p{
+        font-family: 'Barlow Condensed', sans-serif !important;
+        font-size: 18px;
+        color: gray;
+    }
+
+}
+//search.js
+.search{
+    background-color: #F8F5F0;
+    .check-in{
+        background-color: white;
+        
+    }
+    .adults{
+        &:hover{
+            color: #937345 !important;
+        }
+    }
+    .check-now{
+        background-color: #937345;
+        color: #fff;
+        &:hover{
+            background-color: #000;
+            color: #937345;
+        }
+    }
+}
+//review.js
+.review{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://shtheme.com/demosd/thecappa/wp-content/uploads/2022/06/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    .review-text{
+        h3{
+            text-decoration-line: underline;
+            text-decoration-color: white;
+            text-decoration-style: solid;
+            text-underline-offset: 10px;
+            
+
+        }
+    
+    }
+    .info{
+        img{
+            width: 80px;
+            border-radius: 50%;
+        }
+    }
+    .guest-text{
+        line-height: 10px;
+        font-size: 10px;
+    }
+}
+//Service.js
+.restaurants{
+    background: #F8F5F0;
+    
+    .overflow {
+        overflow: hidden;
+
+        img {
+            transition: all 0.9s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .restaurant-text{
+        padding-left: 25px;
+        h6{
+            font-size: 18px;
+            font-weight: 100;
+            font-family: 'Barlow Condensed', sans-serif !important;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 32px;
+        }
+        p{
+            line-height: 30px;
+        }
+        .btn{
+            background-color: #937345;
+            color: #fff;
+            text-transform: uppercase;
+            &:hover{
+                background-color: #000;
+                color: #937345 !important;
+            }
+        }
+    }
+}
+//news.js
+.news{
+    background-color: #000;
+    .head-text{
+        h5{
+            color: #937345;
+            font-family: 'Barlow Condensed', sans-serif !important;
+            letter-spacing: 8px;
+        }
+        h2{
+            font-size: 46px;
+        }
+    }
+    .overflow {
+        overflow: hidden;
+
+        img {
+            transition: all 0.9s;
+
+            &:hover {
+                transform: scale(1.1);
+                filter: brightness(80%);
+            }
+        }
+    }
+    .news-text{
+        bottom: -10px;
+        padding-left: 15px;
+    }
+}
+//Booking
+.booking{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://shtheme.com/demosd/thecappa/wp-content/uploads/2022/06/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    .book-text{
+       p{
+        line-height: 44px;
+       }
+       h5{
+        font-size: 28px;
+       }
+       span{
+        font-size: 18px;
+       }
+    }
+}
+
+//footer
+.footer{
+    background-color: #000;
+    color: white;
+    line-height: 44px;
+    letter-spacing: 2px;
+    .btn{
+        &:hover{
+            color: #937345 !important;
+        }
+    }
+    h4{
+        color: #937345;
+    }
+    ul{
+        h5{
+            a{
+                text-decoration: none;
+                color: #937345 !important;
+            }
+        }
+        li{
+            list-style: none;
+            &:hover{
+                list-style: disc;
+            }
+            a{
+                text-decoration: none;
+                color: #fff !important;
+                
+            }
+        }
+    }
+        .email::after{
+            content: '';
+            width: 0px;
+            height: 2px;
+            background-color: white;
+            margin: auto;
+            display: block;
+        }
+        .email:hover::after {
+            width: 100%;
+            transition: width 0.3s linear;
+        }
+ }
