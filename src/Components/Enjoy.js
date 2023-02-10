@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 function Enjoy() {
     return (
         <>
-            <Container data-aos="fade-up" data-aos-duration="2000" className='my-5 py-5'>
+            <Container  className='my-5 py-5'>
                 <Row>
                     <Col lg={6} className='enjoy-text'>
                         <h6>THE CAPPA LUXURY HOTEL</h6>

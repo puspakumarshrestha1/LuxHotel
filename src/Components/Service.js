@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 function Service() {
     return (
         <>
-            <Container data-aos="fade-up" data-aos-duration="3000" className='my-5 py-5'>
+            <Container  className='my-5 py-5'>
                 <Row className='restaurants'>
                     <Col lg="6">
                         <div className='overflow'>

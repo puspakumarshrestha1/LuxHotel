@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 function Promotional() {
     return (
         <div className='promo'>
-            <Container data-aos="fade-up" data-aos-duration="2000" className='text-center py-5'>
+            <Container  className='text-center py-5'>
                 <Row>
                     <Col className='py-5 text-light'>
                         <p className='py-3'>

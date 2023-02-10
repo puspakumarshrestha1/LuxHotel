@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 function Booking() {
     return (
         <>
-            <div data-aos="fade-up" data-aos-duration="2000" className='booking py-5'>
+            <div  className='booking py-5'>
                 <Container className='py-5 text-light book-text'>
                     <Row >
                         <Col lg={6}>

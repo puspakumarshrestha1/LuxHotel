@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 function Facility() {
     return (
         <>
-            <Container data-aos="fade-up" data-aos-duration="2000" className='py-5'>
+            <Container  className='py-5'>
                 <Row>
                     <Col className='facility-head'>
                    <h6> OUR SERVICES</h6>

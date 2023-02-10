@@ -51,7 +51,7 @@ function Section1() {
           </div>
         </div>
         </OwlCarousel>
-
+        {/* data-aos="fade-up" data-aos-duration="3000" */}
     </>
   )
 }

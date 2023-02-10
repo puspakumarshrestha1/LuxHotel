@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 function Review() {
     return (
         <div className='review py-5'>
-            <Container data-aos="fade-up" data-aos-duration="2000">
+            <Container>
                 <Row>
                     <Col lg={8} className='py-5 text-light offset-md-2 review-text'>
                         <h6> TESTIMONIALS</h6>

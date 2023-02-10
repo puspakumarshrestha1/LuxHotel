@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 function Extra() {
     return (
         <div  className='extra text-light'>
-            <Container data-aos="fade-up" data-aos-duration="2000" className='py-5'>
+            <Container  className='py-5'>
                 <Row>
                     <Col lg={4} className='py-5 extra1'>
                         <h6>BEST PRICES</h6>
