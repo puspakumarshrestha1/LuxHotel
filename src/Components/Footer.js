@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 
 function Footer() {
   return (
+    <>
     <div className='footer py-5'>
       <Container>
         <Row>
@@ -34,7 +35,19 @@ function Footer() {
           </Col>
         </Row>
       </Container>
+     
     </div>
+     <div className='bg-dark  text-light'>
+     <Container className='text-center'>
+      <Row>
+        <Col>
+        <p className='my-3'><i class="bi bi-c-circle"></i> Copyright 2022 by Shtheme</p>
+        </Col>
+      </Row>
+     </Container>
+
+   </div>
+   </>
   )
 }
 

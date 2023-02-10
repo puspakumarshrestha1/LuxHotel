@@ -8,6 +8,9 @@
   .banner-text h1 {
     font-size: 18px;
   }
+  .owl-carousel .btn {
+    display: none;
+  }
   .card {
     width: 10rem !important;
   }
@@ -33,6 +36,9 @@
   }
   .banner-text h1 {
     font-size: 18px;
+  }
+  .owl-carousel .btn {
+    display: none;
   }
   .card {
     width: 15rem !important;
