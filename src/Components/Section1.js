@@ -1,10 +1,15 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Section1() {
+
+  
   return (
     <>
-      <div className="owl-carousel">
+      <OwlCarousel className='owl-theme' items={1}  >
         <div className='banner-1'>
           <div className='text-light position-absolute banner-text'>
             <p>
@@ -18,7 +23,6 @@ function Section1() {
             <h1 className='my-5'>Enjoy a Luxury Experience</h1>
             <Button className='bg-transparent btn-outline-light px-3 py-2'>ROOMS & SUITES</Button>
           </div>
-
         </div>
         <div className='banner-2'>
           <div className='text-light position-absolute banner-text'>
@@ -48,7 +52,7 @@ function Section1() {
             <Button className='bg-transparent btn-outline-light px-3 py-2'>ROOMS & SUITES</Button>
           </div>
         </div>
-      </div>
+        </OwlCarousel>
 
     </>
   )
