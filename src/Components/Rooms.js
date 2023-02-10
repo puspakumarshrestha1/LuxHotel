@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 function Rooms() {
     return (
         <div className='rooms py-5'>
-            <Container>
+            <Container data-aos="fade-up" data-aos-duration="2000">
                 <Row>
                     <Col className='room-text pt-5'>
                         <h6>THE CAPPA LUXURY HOTEL</h6>

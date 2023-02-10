@@ -6,8 +6,8 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function OurNews() {
     return (
-        <div className='news py-5'>
-            <Container className='py-5'>
+        <div  className='news py-5'>
+            <Container data-aos="fade-up" data-aos-duration="2000" className='py-5'>
                 <Row>
                     <Col className='text-light head-text'>
                         <h5> HOTEL BLOG</h5>

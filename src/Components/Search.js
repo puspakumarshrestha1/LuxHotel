@@ -4,7 +4,7 @@ import { Col, Container, Dropdown, Row } from 'react-bootstrap'
 function Search() {
     return (
         <div className='search py-5'>
-            <Container>
+            <Container data-aos="fade-up" data-aos-duration="2000">
                 <Row>
                     <Col className='py-5'>
                         <h6>CHECK NOW</h6>
