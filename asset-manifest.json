@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/LuxHotel/static/css/main.0b1f1913.css",
-    "main.js": "/LuxHotel/static/js/main.f64eaad0.js",
+    "main.css": "/LuxHotel/static/css/main.5dc97620.css",
+    "main.js": "/LuxHotel/static/js/main.76d5cb58.js",
     "static/js/787.93600d59.chunk.js": "/LuxHotel/static/js/787.93600d59.chunk.js",
+    "static/media/3.jpg": "/LuxHotel/static/media/3.162e899e1650d2d8a939.jpg",
+    "static/media/2.jpg": "/LuxHotel/static/media/2.ac206977e6c393478b0b.jpg",
+    "static/media/1.jpg": "/LuxHotel/static/media/1.d89ab4b4fe690bb08825.jpg",
     "index.html": "/LuxHotel/index.html",
-    "main.0b1f1913.css.map": "/LuxHotel/static/css/main.0b1f1913.css.map",
-    "main.f64eaad0.js.map": "/LuxHotel/static/js/main.f64eaad0.js.map",
+    "main.5dc97620.css.map": "/LuxHotel/static/css/main.5dc97620.css.map",
+    "main.76d5cb58.js.map": "/LuxHotel/static/js/main.76d5cb58.js.map",
     "787.93600d59.chunk.js.map": "/LuxHotel/static/js/787.93600d59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b1f1913.css",
-    "static/js/main.f64eaad0.js"
+    "static/css/main.5dc97620.css",
+    "static/js/main.76d5cb58.js"
   ]
 }
