@@ -76,3 +76,19 @@
     }
     
 }
+@include md{
+    .enjoy-img, .enjoy-img2{
+        display: none;
+    }
+    .card{
+        width: 16rem !important;
+    }
+}
+@include lg{
+    .enjoy-img, .enjoy-img2{
+        display: none;
+    }
+    .card{
+        width: 18rem !important;
+    }
+}

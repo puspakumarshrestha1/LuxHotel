@@ -5,11 +5,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function Section1() {
-
-  
   return (
     <>
-      <OwlCarousel className='owl-theme' items={1}  >
+      <OwlCarousel className='owl-theme' items={1} loop={true}  >
         <div className='banner-1'>
           <div className='text-light position-absolute banner-text'>
             <p>
